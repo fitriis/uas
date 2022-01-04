@@ -1,0 +1,18 @@
+cara / langkah installasi pada halaman github :
+1. menyiapkan web server yang di dalamnya terdapat bahasa pemrograman php yang sesuai versi laravel yang diinginkan
+(untuk windows os, dapat menggunakan xamp) agar suapaya dapat memastikan localhostnya aktif.
+2. install composer, dan memastikan software composer yang ada didalam komputer, dengan versi yang sesuai pastinya, 
+minimal versi 2. menyiapkan text editor misalnya sublim atau vscode, atau lainnya.
+3. menulisakan perintah di dalam commentprom (cmd) dengan menuliskan : 
+composer create-project laravel/laravel uas
+tunggu sampai proses download selesai
+cd example-app
+untuk menjalankannya, aktifkan proses php artisan serve, agar membuktikan berhasil php artisan serve
+php artisan serve
+
+4. membuka folder yang sudah tersedia di dalam text editor, kemudian modifikasi 3 file, 
+untuk membuatnya di dalam folder rootes, di dalam folder root pilih file nama web.php lalu ditambahkan function
+dengan method get.
+setelah menambah root, siapkan file targetnya, dalam hal ini berada resource, view lalu tambahkan file extention 
+blade.php
+5. siapkan browser untuk menguji program php yang berjalan
